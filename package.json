@@ -1,0 +1,19 @@
+{
+  "name": "zed-node",
+  "version": "0.1.0",
+  "description": "Read-only extractor for password-protected .zed archives (Node.js port of zed.py)",
+  "type": "module",
+  "exports": "./zed.js",
+  "bin": {
+    "zed": "./zed.js"
+  },
+  "files": [
+    "zed.js"
+  ],
+  "engines": {
+    "node": ">=18.3"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
